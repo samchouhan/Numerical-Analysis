@@ -1,4 +1,5 @@
----BISECTION METHOD ---
+# Numerical Analysis with Python
 
-It is used to find the approximate value of the root of a polynomial.
-We will be using SciPy library 
+This repository contains my learning and practice of **Numerical Analysis using Python**. Numerical analysis involves using computational methods and algorithms to solve mathematical problems that may be difficult or impossible to solve manually.
+
+Topics include numerical methods, mathematical computations, approximations, and solving problems using Python libraries and programming concepts.
