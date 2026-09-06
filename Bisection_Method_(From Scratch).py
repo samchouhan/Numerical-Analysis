@@ -2,7 +2,7 @@
 # scratch without using any pre-built modules.
 
 def function(x):
-    return x**3 - x - 2
+    return x*x -4
 
 def bisection(a,b,tol=0.0001):
     if function(a) * function(b) >= 0:
@@ -19,3 +19,5 @@ def bisection(a,b,tol=0.0001):
             a = c
     return c
 
+root = bisection(1, 3)
+print(f"The root is approximately: {root:.4f}")
