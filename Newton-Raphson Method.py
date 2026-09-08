@@ -9,4 +9,4 @@ def df(x):
 
 # Find the root using the Newton-Raphson method
 root = newton(function, 1, fprime=df)
-print(f"The approximate value of the root is: {root:.4f}")
+print(f"The approximate value of the root is: {root}")
